@@ -4,11 +4,11 @@ This repository contains the codelabs and projects for Day 4, focusing on buildi
 
 ## Projects Included
 
-1. **[Shopping Assistant](./shopping-assistant/README.md)**
-   An AI shopping assistant agent built with Google ADK (Agent Development Kit). It helps users with their shopping experience, processes cart checkouts, and handles secure single-use discount code redemption.
-
-2. **[Ambient Expense Agent](./ambient-expense-agent/README.md)**
+1. **[Ambient Expense Agent](./ambient-expense-agent/README.md)**
    An agent designed to ambiently process and categorize expenses. *(Refer to its README for specific setup and configuration).*
+   
+2. **[Shopping Assistant](./shopping-assistant/README.md)**
+   An AI shopping assistant agent built with Google ADK (Agent Development Kit). It helps users with their shopping experience, processes cart checkouts, and handles secure single-use discount code redemption.
 
 ## Prerequisites
 
