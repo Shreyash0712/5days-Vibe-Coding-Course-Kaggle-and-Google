@@ -1,0 +1,19 @@
+repos:
+  - repo: local
+    hooks:
+      - id: trailing-whitespace
+        name: Trailing Whitespace Fixer
+        entry: uv run trailing-whitespace-fixer
+        language: system
+        types: [text]
+      - id: end-of-file-fixer
+        name: End of File Fixer
+        entry: uv run end-of-file-fixer
+        language: system
+        types: [text]
+      - id: semgrep
+        name: Semgrep
+        entry: uv run semgrep --config auto
+        language: system
+        types: [python]
+        pass_filenames: true
